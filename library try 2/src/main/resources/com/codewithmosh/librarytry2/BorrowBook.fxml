@@ -18,7 +18,7 @@
       <Label fx:id="borrowerNameLabel1" layoutX="39.0" layoutY="297.0" onDragDetected="#search" prefHeight="18.0" prefWidth="197.0" text="Enter book title / author / ISBN:" />
       <TextField fx:id="infoTextField" layoutX="246.0" layoutY="293.0" prefHeight="26.0" prefWidth="189.0" />
       <Label fx:id="failLabel2" layoutX="517.0" layoutY="330.0" onDragDetected="#borrow" textFill="#c70c0c" />
-      <Button fx:id="backButton" layoutX="35.0" layoutY="493.0" mnemonicParsing="false" onAction="#switchToUserMode" text="Back" />
+      <Button fx:id="backButton" layoutX="31.0" layoutY="442.0" mnemonicParsing="false" onAction="#switchToUserMode" text="Back" />
       <Label fx:id="borrowerNameLabel11" layoutX="39.0" layoutY="330.0" onDragDetected="#search" text="Enter your name to borrow the book:" />
       <TextField fx:id="nameTextField" layoutX="246.0" layoutY="325.0" prefHeight="26.0" prefWidth="189.0" />
       <Button fx:id="borrowButton" layoutX="449.0" layoutY="326.0" mnemonicParsing="false" onAction="#borrow" text="Borrow" />
