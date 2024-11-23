@@ -12,7 +12,7 @@ import java.util.List;
 
 public class Main extends Application {
     private static List<Book> libraryBookData;
-    public static final String filePath = "src/main/resources/com/codewithmosh/librarytry2/bookList.txt";
+    public static final String filePath = "bookList.txt";
 
     @Override
     public void start(Stage stage) {
